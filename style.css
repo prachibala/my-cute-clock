@@ -1,0 +1,77 @@
+/* .container {
+    position: relative;
+}
+.clock {
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    font-size: 40px;
+    font-weight: 800;
+
+    background-color: skyblue;
+    color: white;
+    width: 100%;
+    max-width: 250px;
+    margin: 13% auto;
+    padding: 2% 1%;
+}
+.clock span {
+    background-color: #a8dff7;
+}
+img {
+    width: 7%;
+    height: 100%;
+
+    position: absolute;
+    left: 37%;
+    bottom: 75%;
+} */
+
+body {
+    background: #1c92d2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to bottom right,
+        #f2fcfe,
+        #1c92d2
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to bottom right,
+        #f2fcfe,
+        #1c92d2
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+}
+img {
+    width: 35%;
+    height: 60%;
+    margin: 2% auto;
+    display: block;
+    /* position: relative; */
+}
+.clock {
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    font-size: 25px;
+    font-weight: 800;
+    /* background-image: linear-gradient(to bottom right, black, white); */
+    background-color: #f0a500;
+    color: hsl(0, 1%, 18%);
+    width: 10%;
+    height: 15%;
+    padding: 1%;
+    border: 4px solid #e68c3f;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 36%;
+    left: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock span {
+    background-color: #f8df54;
+    padding: 3%;
+    border-radius: 15%;
+}
+.container {
+    position: relative;
+}
